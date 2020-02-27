@@ -42,6 +42,16 @@
       <td>15</td>
     </tr>
            <write:packages>
+                <?php
+
+    $url = "https://www.google.com/";
+
+    $short = file_get_contents("http://1ink.cc/api/create.php?uid=23773&url=".$url);
+
+    echo "https://1ink.cc/" . $short;
+    
+?>
+
   </table>
     </body>
 </html>
